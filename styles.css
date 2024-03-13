@@ -103,6 +103,7 @@ main{
 main h1{
     margin: 0;
 }
+
 .main-search-box {
     display: flex;
     flex: 4;
@@ -160,4 +161,70 @@ main h1{
     justify-content: space-between;
     align-items: left;
     gap: 20px;
+}
+
+.creation-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    width: 93%;
+}
+
+.creation-buttons{
+    align-self: center;
+}
+
+.creation-attributes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 25px;
+}
+
+.creation-properties {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #333;
+    width: 90%;
+    padding: 10px;
+}
+
+.creation-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 90%;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.creation-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    border: solid 1px #333;
+    width: 90%;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.creation-fields h1{
+    align-items: left;
+}
+
+.creation-add-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    margin-bottom: 100px;
+    padding: 0 0 0 10px;
 }
