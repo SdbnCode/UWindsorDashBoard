@@ -66,7 +66,32 @@ nav {
     height: 30px;
 }
 
-.nav-search-box-button{
+.nav-search-button{
+    display: flex;
+    flex: 1;
+    margin: 10px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-search-box {
+    display: flex;
+    flex: 4;
+    margin: 10px 0 10px 0;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+}
+
+.main-search-button{
     display: flex;
     flex: 1;
     margin: 10px 0 10px 0;
