@@ -23,7 +23,7 @@
             </ul>
             <div class="search-box">
                 <input type="search" class = "nav-search-box" placeholder="Search">
-                <button class = "nav-search-button">Search</button>
+                <button type="submit" class = "nav-search-button">Search</button>
             </div>
         </div>
     </nav>
@@ -63,25 +63,27 @@
         <section class="dataset-section">
             <h1>Dataset Catalogue</h1>
             <div class = "main-search-box">
-                <input type="search" class="main-search-box" placeholder="Search">
-                <button class="main-search-button">Search</button>
+                <input type="text" id="search-input" placeholder="Search..">
+                <input type="button" id="search-button" value="Search">
+                               
             </div>
     
             <h3>All Datasets</h3>
-            <ul class="dataset-list">
+            <ul id="dataset-list">
                 <li class="dataset-item">
-                    <h4>Dataset 1</h4>
+                    <a>Testing</a>
                     <p>Description of Dataset 1</p>
                     <a href="dataset1.html">View Details</a>
                 </li>
                 <li class="dataset-item">
-                    <h4>Dataset 2</h4>
+                    <a>Example 2</a>
                     <p>Description of Dataset 2</p>
                     <a href="dataset2.html">View Details</a>
                 </li>
                 <li class="dataset-item">
-                    <h4>Dataset 3</h4>
+                    <a>Example 3</a>
                     <p>Description of Dataset 3</p>
+                    <a href="dataset2.html">View Details</a>
                 </li>
             </ul>
         </section>

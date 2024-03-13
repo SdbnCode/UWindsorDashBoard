@@ -106,7 +106,6 @@ main h1{
 
 .main-search-box {
     display: flex;
-    flex: 4;
     margin: 10px 0 10px 0;
     justify-content: center;
     width: 80%;
