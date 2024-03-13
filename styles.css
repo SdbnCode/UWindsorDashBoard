@@ -91,6 +91,7 @@ nav {
     flex: 1;
     justify-content: center;
     align-items: center;
+    height: 30px;
 }
 
 main{
