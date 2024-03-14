@@ -1,3 +1,4 @@
+//Filters using search bar displays the list of datasets that matches 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("search-button").addEventListener("click", performSearch);
     document.getElementById("search-input").addEventListener("keyup", function(event) {
