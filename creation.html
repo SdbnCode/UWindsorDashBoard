@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
     <title>City of Windsor</title>
 </head>
 <body>
@@ -14,18 +13,18 @@
                 <h1>City of Windsor</h1>
             </a>
             <h2>Open Data Portal</h2>
-            <a href="/creation.html">Login</a>  
+            <a href="creation.html">Login</a>  
         </div>
         <div class="nav-search">
             <ul class="nav-links">
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/search.html">About</a></li>
-                <li><a href="/creation.html">Contact</a></li>
-                <li><a href="/home.html">Learn More</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="search.html">About</a></li>
+                <li><a href="creation.html">Contact</a></li>
+                <li><a href="home.html">Learn More</a></li>
             </ul>
             <div class="search-box">
                 <input type="search" class = "nav-search-box" placeholder="Search">
-                <a href="/search.html"><input type="button" class="nav-search-button" value="Search"></a>      
+                <a href="search.html"><input type="button" class="nav-search-button" value="Search"></a>      
             </div>
         </div>
     </nav>
@@ -55,13 +54,15 @@
 
         <div class="creation-fields">
             <h1>Fields</h1>
+            <div class = "additional-information"></div>
             <div class = "creation-add-fields">
                 <label for="creation-field">Add a Field</label>
-                <input type="button" value="Add Field">
+                <input type="button" value="Add Field" id="add-new-field">
             </div>
         </div>
     </div>
    
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
