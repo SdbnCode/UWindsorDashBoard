@@ -48,4 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add line break for better separation
         additionalInformationDiv.appendChild(document.createElement("br"));
     }
+
+
 });

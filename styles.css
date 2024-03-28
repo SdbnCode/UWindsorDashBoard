@@ -1,3 +1,4 @@
+/* Styling for different heading levels */
 h1{
     font-size: 2rem;
 }
@@ -10,11 +11,14 @@ h4{
     padding: 0;
     margin: 0;
 }
+
+/* Styling for links */
 a {
     color: black;
     text-decoration: none;
 }
 
+/* Styling for list items and unordered lists */
 li {
     list-style: none;
 }
@@ -23,16 +27,21 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+/* Styling for the body of the page */
 body{
     padding: 25px;
     margin: 0;
 }
+
+/* Styling for the navigation bar */
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* Styling for the logo */
 .logo {
     display: flex;
     font-size: 1.5rem;
@@ -44,10 +53,12 @@ nav {
     padding: 0 10px 0 10px;
 }
 
+/* Styling for the logo link */
 .logo a{
     font-size: 1rem;
 }
 
+/* Styling for the search bar in the navigation */
 .nav-search {
     display: flex;
     flex-direction: row;
@@ -57,6 +68,7 @@ nav {
     padding: 10px;
 }
 
+/* Styling for the navigation links */
 .nav-links{
     display: flex;
     flex-direction: row;
@@ -69,6 +81,7 @@ nav {
     gap: 20px;
 }
 
+/* Styling for the search box in the navigation */
 .search-box {
     display: flex;
     flex: 1;
@@ -78,6 +91,7 @@ nav {
     padding-right: 10px;
 }
 
+/* Styling for the search box in the navigation */
 .nav-search-box{
     display: flex;
     flex: 6;
@@ -86,6 +100,7 @@ nav {
     height: 30px;
 }
 
+/* Styling for the search button in the navigation */
 .nav-search-button{
     display: flex;
     flex: 1;
@@ -94,6 +109,7 @@ nav {
     height: 30px;
 }
 
+/* Styling for the main section of the page */
 main{
     display: flex;
     align-items: center;
@@ -101,10 +117,12 @@ main{
     margin-top: 50px;
 }
 
+/* Styling for the main heading */
 main h1{
     margin: 0;
 }
 
+/* Styling for the search box in the main section */
 .main-search-box {
     display: flex;
     margin: 10px 0 10px 0;
@@ -113,6 +131,7 @@ main h1{
     height: 30px;
 }
 
+/* Styling for the search button in the main section */
 .main-search-button{
     display: flex;
     flex: 1;
@@ -123,14 +142,15 @@ main h1{
     height: 30px;
 }
 
+/* Styling for the main search section */
 .main-search {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     width: 100%;
-
 }
 
+/* Styling for the sidebar */
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -141,6 +161,7 @@ main h1{
     align-self: center;
 }
 
+/* Styling for the dataset section */
 .dataset-section {
     display: flex;
     flex-direction: column;
@@ -149,6 +170,7 @@ main h1{
     align-items: center;
 }
 
+/* Styling for the dataset filter */
 .dataset-filter {
     display: flex;
     flex-direction: row;
@@ -156,6 +178,7 @@ main h1{
     align-items: center;
 }
 
+/* Styling for the filters */
 .filters {
     display: flex;
     flex-direction: column;
@@ -164,6 +187,7 @@ main h1{
     gap: 20px;
 }
 
+/* Styling for the creation header */
 .creation-header {
     display: flex;
     flex-direction: row;
@@ -172,10 +196,12 @@ main h1{
     width: 93%;
 }
 
+/* Styling for the creation buttons */
 .creation-buttons{
     align-self: center;
 }
 
+/* Styling for the creation attributes */
 .creation-attributes {
     display: flex;
     flex-direction: column;
@@ -185,6 +211,7 @@ main h1{
     gap: 25px;
 }
 
+/* Styling for the creation properties */
 .creation-properties {
     display: flex;
     flex-direction: column;
@@ -193,6 +220,7 @@ main h1{
     padding: 10px;
 }
 
+/* Styling for the creation information */
 .creation-information{
     display: flex;
     flex-direction: column;
@@ -203,6 +231,7 @@ main h1{
     padding: 0 10px 0 10px;
 }
 
+/* Styling for the creation fields */
 .creation-fields{
     display: flex;
     flex-direction: column;
@@ -212,13 +241,14 @@ main h1{
     width: 90%;
     gap: 10px;
     padding: 10px;
-
 }
 
+/* Styling for the creation fields heading */
 .creation-fields h1{
     align-items: left;
 }
 
+/* Styling for the add fields section in the creation section */
 .creation-add-fields {
     display: flex;
     flex-direction: row;
@@ -230,6 +260,7 @@ main h1{
     padding: 0 0 0 10px;
 }
 
+/* Styling for each dataset item */
 .dataset-item{
     display: flex;
     flex-direction: column;
@@ -239,4 +270,14 @@ main h1{
     padding: 10px;
     border: solid 1px #333;
     margin: 10px 0 10px 0;
+}
+
+.additional-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 90%;
+    gap: 10px;
+    padding: 0 10px 0 10px;
 }
