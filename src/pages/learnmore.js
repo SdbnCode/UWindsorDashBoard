@@ -3,8 +3,8 @@ import React from "react";
 class LearnMore extends React.Component {
     render() {
         return (
-            <div className="learn-more">
-                <h2>Open Source Data</h2>
+            <div className="main">
+                <h1>Open Source Data</h1>
                 <p>Windsor actively participates in open source data initiatives aimed at promoting transparency, collaboration, and innovation. Open source data initiatives provide valuable information about various aspects of the city, including government activities, public spending, environmental data, and more. Citizens can access and utilize open source data to make informed decisions, contribute to research projects, and develop innovative solutions to societal challenges.</p>
                 <h2>Climate</h2>
                 <p>Windsor has a humid continental climate with hot summers and cold winters.</p>
@@ -18,7 +18,6 @@ class LearnMore extends React.Component {
                 <p>Windsor is well-connected by road, rail, and air. The Ambassador Bridge and the Detroit-Windsor Tunnel provide connections to the United States.</p>
                 <h2>Government</h2>
                 <p>Windsor is governed by a mayor and city council.</p>
-                {/* Add more sections as needed */}
             </div>
         );
     }

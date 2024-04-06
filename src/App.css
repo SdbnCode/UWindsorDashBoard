@@ -1,56 +1,81 @@
+:root{
+  --font-color-header: #f0f0f0;
+  --header-color: #023e8a;
+}
+
 /* Styling for different heading levels */
 h1{
+  font-family: Open-sans, sans-serif;
+  color: var(--font-color);
   font-size: 2rem;
 }
 
 h2{
+  font-family: Open-sans, sans-serif;
+  color: var(--font-color);
   font-size: 1.5rem;
 }
 
+h3{
+  font-family: Open-sans, sans-serif;
+  color: var(--font-color);
+  font-size: 1.25rem;
+  padding:0;
+  margin:0;
+}
+
 h4{
+  font-family: Open-sans, sans-serif;
+  color: var(--font-color);
   padding: 0;
   margin: 0;
 }
 
 /* Styling for links */
 a {
-  color: black;
+  font-family: Open-sans, sans-serif;
+  color: var(--font-color);
   text-decoration: none;
 }
 
 /* Styling for list items and unordered lists */
 li {
+  font-family: Open-sans, sans-serif;
+  color: var(--font-color);
   list-style: none;
 }
 
 ul {
+  font-family: Open-sans, sans-serif;
   padding: 0;
   margin: 0;
 }
 
 /* Styling for the body of the page */
-body{
-  padding: 25px;
+body div{
+  padding: 10;
   margin: 0;
 }
 
 /* Styling for the navigation bar */
 nav {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #023e8a  ;
+  padding: 10px 20px 10px 20px;
 }
+
 
 /* Styling for the logo */
 .logo {
   display: flex;
   font-size: 1.5rem;
-  color: #333;
   text-decoration: none;
   justify-content: space-between;
   align-items: center;
-  border: solid 1px #333;
-  padding: 0 10px 0 10px;
+
 }
 
 /* Styling for the logo link */
@@ -63,9 +88,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center; 
-  border: solid 1px #333;
   border-top-width: 0;
-  padding: 10px;
 }
 
 /* Styling for the navigation links */
@@ -81,47 +104,35 @@ nav {
   gap: 20px;
 }
 
-/* Styling for the search box in the navigation */
-.search-box {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  width: 100%;
-  height: 30px;
-  padding-right: 10px;
-}
-
-/* Styling for the search box in the navigation */
-.nav-search-box{
-  display: flex;
-  flex: 6;
-  justify-content: center;
-  width: 100%;
-  height: 30px;
-}
-
-/* Styling for the search button in the navigation */
-.nav-search-button{
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-}
 /* Styling for sectuion under header */
 .title-container{
+  background-image: url("images/Designer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 250px;
+  width: 100%;
+  height: 35vh;
+  padding-left: 100px;
+  margin-left: -10px; 
 }
 /* Styling for the main section of the page */
 .main{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  padding: 0 10px 10px 10px;
+}
+
+/* Styling for the main body of the home page */
+.home-body{
+  display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 20px;
 }
 
 /* Styling for the main heading */
@@ -129,7 +140,6 @@ nav {
   margin: 0;
   justify-content: center;
   align-items: center;
-
 }
 
 /* Styling for the search box in the main section */
@@ -148,7 +158,7 @@ nav {
   margin: 10px 0 10px 0;
   justify-content: center;
   align-items: center;
-  width: 00px;
+  width: 100px;
   height: 30px;
 }
 
@@ -156,7 +166,11 @@ nav {
 #search-input{
   justify-content: center;
   width: 50%;
-  height: 30px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: none;
+  border: none;
+  padding: 0;
 }
 
 /* Styling for search button */
@@ -164,6 +178,11 @@ nav {
   justify-content: center;
   width: 10%;
   height: 35px;
+  border-radius: 0 5px 5px 0 ;
+  box-shadow: none;
+  border: none;
+  background-color: var(--header-color);
+  color: white;
 }
 
 /* Styling for the main search section */
@@ -181,16 +200,19 @@ nav {
   padding: 0 10px 10px 10px;
   border: solid 1px #333;
   height: 50%;
-  align-self: center;
+  align-self: start;
+  margin-top: 100px;
+
 }
 
 /* Styling for the dataset section */
 .dataset-section {
   display: flex;
   flex-direction: column;
-  flex: 7.5;
+  flex: 6;
   justify-content: center;
   align-items: center;
+  padding-right: 100px;
 }
 
 /* Styling for the dataset filter */
@@ -232,6 +254,7 @@ nav {
   align-items: center;
   width: 100%;
   gap: 25px;
+  margin-bottom: 20px;
 }
 
 /* Styling for the creation properties */
@@ -307,4 +330,30 @@ nav {
   width: 90%;
   gap: 10px;
   padding: 0 10px 0 10px;
+}
+
+/* Styling for the contact form */
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: 50%;
+  gap: 10px;
+  padding: 0 10px 0 10px;
+}
+
+/* Styling for the new-field input */
+.additional-information div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.additional-information div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
 }

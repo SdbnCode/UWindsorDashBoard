@@ -1,9 +1,10 @@
 import React from "react";
 
+// Contact component
 class Contact extends React.Component {
     render() {
         return (
-            <div className="contact">
+            <div className="main">
                 <h1>Contact Us</h1>
                 <p>Have questions or concerns? Get in touch with us!</p>
                 <div className="contact-details">

@@ -1,5 +1,6 @@
 import React from "react";
 
+// Creation component
 class Creation extends React.Component {
     // Constructor to initialize the state
     constructor(props) {
@@ -20,7 +21,7 @@ class Creation extends React.Component {
         const { fields } = this.state;
 
         return (
-            <main>
+            <div className="main">
                 <header className="creation-header">
                     <h1>Add a Dataset</h1>
                     <div className="creation-buttons">
@@ -80,7 +81,7 @@ class Creation extends React.Component {
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         );
     }
 }

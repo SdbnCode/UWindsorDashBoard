@@ -1,9 +1,10 @@
 import React from "react";
 
+// LearnMore component
 class LearnMore extends React.Component {
     render() {
         return (
-            <div className="learnmore">
+            <div className="main">
                 <h1>About Windsor</h1>
                 <p>Welcome to the Learn More page about the city of Windsor!</p>
                 <h2>Location</h2>
