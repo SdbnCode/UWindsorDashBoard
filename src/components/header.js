@@ -15,13 +15,9 @@ class Header extends React.Component {
                 <ul className="nav-links">
                     <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
                     <li><NavLink to="/search">About</NavLink></li>
-                    <li><NavLink to="/creation">Contact</NavLink></li>
-                    <li><NavLink to="/" exact activeClassName="active">Learn More</NavLink></li>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li><NavLink to="/learnmore">Learn More</NavLink></li>
                 </ul>
-                <div className="search-box">
-                    <input type="search" className = "nav-search-box" placeholder="Search"/>
-                    <a href="search.html"><input type="button" className="nav-search-button" value="Search"/></a>      
-                </div>
             </div>
         </nav>
             );
