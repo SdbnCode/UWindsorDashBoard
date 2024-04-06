@@ -108,12 +108,19 @@ nav {
   align-items: center;
   height: 30px;
 }
-
+/* Styling for sectuion under header */
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
 /* Styling for the main section of the page */
 .main{
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 50px;
 }
 
@@ -145,12 +152,14 @@ nav {
   height: 30px;
 }
 
+/* Styling for searchbar */
 #search-input{
   justify-content: center;
-  width: 100%;
+  width: 50%;
   height: 30px;
 }
 
+/* Styling for search button */
 #search-button{
   justify-content: center;
   width: 10%;
@@ -179,7 +188,7 @@ nav {
 .dataset-section {
   display: flex;
   flex-direction: column;
-  flex: 6;
+  flex: 7.5;
   justify-content: center;
   align-items: center;
 }

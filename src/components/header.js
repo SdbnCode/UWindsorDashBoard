@@ -14,7 +14,7 @@ class Header extends React.Component {
             <div className="nav-search">
                 <ul className="nav-links">
                     <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
-                    <li><NavLink to="/search">About</NavLink></li>
+                    <li><NavLink to="/about">About</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                     <li><NavLink to="/learnmore">Learn More</NavLink></li>
                 </ul>
