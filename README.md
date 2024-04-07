@@ -37,3 +37,12 @@ The main SRC folder contains the following important elements:
 - The App.js contains the main application and loads all of the other web elements to be displayed
 - The Config.json file creates the title of the website
 - The rest of the packages are for libraries and elements needed to run the web application
+
+## Creation Page
+
+Click the login button, this will take you to the publishing page.
+Currently there is no login feature.
+
+## Search Functionality
+
+This is found on the main page with the default template datasets for people use test the web application.
