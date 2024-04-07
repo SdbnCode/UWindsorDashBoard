@@ -21,7 +21,7 @@ npm install -g npm
 
 ## Project organization
 
-In the ## public folder you will find just the index.html file that houses the basic template for the webpage
+In the public folder you will find just the index.html file that houses the basic template for the webpage
 
 In the src folder is where you will find the bulk of the project. 
 
