@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Windsor Open Source
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Windsor Open Source is a project by the students at the University of Windsor to allow the citizens of Windsor to harness the power of open source data.
 
-## Available Scripts
+The web application allows users to upload their own data and submit their findings for the City to review and publish as they see fit. 
 
-In the project directory, you can run:
+## How to Access the project 
+
+Once you have cloned the project you can run the following command: 
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will open the app in development mode for you to see.
+makee sure that you have the latest versions of npm and Node.js installed by visting the following link:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://nodejs.org/en/download/
 
-### `npm test`
+then installing npm via the command in terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install -g npm
 
-### `npm run build`
+## Project organization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the ## public folder you will find just the index.html file that houses the basic template for the webpage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the src folder is where you will find the bulk of the project. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project is housed in serveral folders which is broken down as follows:
 
-### `npm run eject`
+- Components: Houses elements that are loaded onto each page like the Navigation bar
+- Images: Houses all of the images used in the web application
+- Pages: Houses all of the unique individual pages that are linked to in the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The main SRC folder contains the following important elements:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The App.css contains the styling of the entire web application 
+- The App.js contains the main application and loads all of the other web elements to be displayed
+- The Config.json file creates the title of the website
+- The rest of the packages are for libraries and elements needed to run the web application
